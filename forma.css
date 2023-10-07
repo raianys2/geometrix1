@@ -1,4 +1,4 @@
-/* Estilos gerais da página */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +6,9 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('/background1.png');
-    background-size: cover; /* A imagem se ajustará à largura/altura do elemento */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -22,7 +22,7 @@ header {
     height: 15vh;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; 
     justify-content: center;
 }
 
@@ -38,10 +38,10 @@ main {
     background-color: #ffffffd5;
     border: 1px solid #ddd;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Alinha horizontalmente ao centro */
+    text-align: center; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza verticalmente */
+    align-items: center; 
     justify-content: center;
 }
 
@@ -61,7 +61,7 @@ main img {
 
 main img:hover {
 
-transform: scale(2.1); /* Aumenta o tamanho em 10% (pode ajustar conforme necessário) */
+transform: scale(2.1); 
 
 }
 
@@ -97,9 +97,8 @@ button {
 }
 
 
-/* Estilos quando o usuário passa o cursor (hover) */
 button:hover {
-    background-color: #909090bf; /* Altera a cor de fundo para a cor desejada */
+    background-color: #909090bf; 
 }
 
 #resultado {
@@ -112,13 +111,12 @@ footer {
     width: 100vw;
     height: 15vh;
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    justify-content: center; 
     text-align: center;
     margin-top: 40px;
 }
 
-/* Estilos para os ícones das redes sociais */
 .redes-sociais a {
     margin: 0 10px;
     text-decoration: none;
@@ -131,7 +129,7 @@ footer {
     transition: transform 0.2s;
 }
 
-/* Estilos para animação de hover nos ícones */
+
 .redes-sociais img:hover {
     transform: scale(1.2);
 }

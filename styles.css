@@ -1,10 +1,9 @@
 
-/* Reset de estilos para limpar margens e preenchimentos padrão */
 body {
     background-image: url('/background3.jpg');
-    background-size: cover; /* A imagem se ajustará à largura/altura do elemento */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     font-family: 'Roboto', sans-serif;
     margin: 0;
     border: 0;
@@ -18,8 +17,8 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza verticalmente o conteúdo */
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; 
+    justify-content: center; 
 }
 
 .titulo {
@@ -30,7 +29,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Estilos para o parágrafo de descrição */
+
 .subtitulo {
     font-size: 4vh;
     color: #777777;
@@ -59,9 +58,9 @@ margin: 2vh;
 
 main {
 
-    text-align: center; /* Alinha o conteúdo horizontalmente */
-    top: 50%; /* Move o topo da .container para o meio da página */
-    left: 50%; /* Move a esquerda da .container para o meio da página */
+    text-align: center; 
+    top: 50%; 
+    left: 50%; 
     padding: 10px;
     margin-left: 50vh;
     margin-right: 50vh;
@@ -78,10 +77,10 @@ img {
     transition: transform 0.5s, background-color 0.5s; 
 }
 
-/* Estilos quando o usuário passa o cursor (hover) */
+
 .forma:hover {
-    transform: scale(1.1); /* Aumenta o tamanho em 10% (pode ajustar conforme necessário) */
-    background-color: #141414bf; /* Altera a cor de fundo para a cor desejada */
+    transform: scale(1.1); 
+    background-color: #141414bf; 
 }
 
 
@@ -104,13 +103,11 @@ footer {
     transition: transform 0.4s;
 }
 
-/* Estilos para animação de hover nos ícones */
 .redes-sociais img:hover {
     transform: scale(1.2);
 }
 
 a {
     text-decoration: none;
-    color: inherit; /* Para herdar a cor do texto do elemento pai */
-    /* Outros estilos personalizados, se necessário */
+    color: inherit; 
 }
