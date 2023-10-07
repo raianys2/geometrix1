@@ -1,7 +1,7 @@
 
 /* Reset de estilos para limpar margens e preenchimentos padrão */
 body {
-    background-image: url('/assets/images/background3.jpg');
+    background-image: url('/background3.jpg');
     background-size: cover; /* A imagem se ajustará à largura/altura do elemento */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
