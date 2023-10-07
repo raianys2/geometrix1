@@ -1,0 +1,137 @@
+/* Estilos gerais da página */
+* {
+    margin: 0;
+    padding: 0;
+}   
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/assets/images/background1.png');
+    background-size: cover; /* A imagem se ajustará à largura/altura do elemento */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #2424249e;
+    color: #fff;
+    text-align: center;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente o conteúdo */
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffffd5;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Alinha horizontalmente ao centro */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center;
+}
+
+main p {
+    font-size: 18px;
+    margin: 7vh;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    transition: transform 0.5s, background-color 0.5s;
+    width: 15vw;
+
+}
+
+main img:hover {
+
+transform: scale(2.1); /* Aumenta o tamanho em 10% (pode ajustar conforme necessário) */
+
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin: 5vh;
+
+}
+
+label {
+    font-size: 20px;
+    margin: 3vh;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 1vh;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s, background-color 0.5s;
+    border-radius: 20px;   
+}
+
+
+/* Estilos quando o usuário passa o cursor (hover) */
+button:hover {
+    background-color: #909090bf; /* Altera a cor de fundo para a cor desejada */
+}
+
+#resultado {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #000000cd;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Estilos para os ícones das redes sociais */
+.redes-sociais a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s;
+}
+
+/* Estilos para animação de hover nos ícones */
+.redes-sociais img:hover {
+    transform: scale(1.2);
+}

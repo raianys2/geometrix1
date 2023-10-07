@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/forma.css">
+    <link rel="icon" href="/assets/images/iconelogo.png" type="image/png">
+    <title>Calcular Área de Trapézio Irregular</title>
+</head>
+<body>
+
+    <header>
+        <h1>Trapézio Irregular</h1>
+    </header>
+
+    <main>
+        <p>O trapézio irregular é uma figura geométrica com quatro lados, dos quais dois são paralelos e dois não são. Para calcular a área de um trapézio irregular, insira as medidas dos lados paralelos (base maior e base menor) e a altura entre elas nos campos abaixo e clique em "Calcular Área".</p>
+        <div class="images">
+            <img src="/assets/images/trapezoideirregular.jpeg" alt="Imagem de um trapézio irregular">
+            <img src="/assets/images/trapezio.png" alt="Imagem de um trapézio irregular">
+        </div>
+        <h2>Calculadora de Área de Trapézio Irregular</h2>
+
+        <label for="baseMaior">Base Maior:</label>
+        <input type="number" id="baseMaior" placeholder="Digite a medida da base maior" required>
+
+        <label for="baseMenor">Base Menor:</label>
+        <input type="number" id="baseMenor" placeholder="Digite a medida da base menor" required>
+
+        <label for="altura">Altura:</label>
+        <input type="number" id="altura" placeholder="Digite a medida da altura" required>
+
+        <button id="calcular">Calcular Área</button>
+
+        <div id="resultado"></div>
+    </main>
+
+    <a href="index.html">
+        <button class="botaohome">Voltar à Página Inicial</button>
+    </a>
+    
+    <footer>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/raiany-santana/" target="_blank">
+                <img src="assets/images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/raianys2" target="_blank">
+                <img src="assets/images/github.png" alt="GitHub">
+            </a>
+        </div>
+    </footer>
+
+    <script src="/assets/javascript/trapezio.js"></script>
+</body>
+</html>
