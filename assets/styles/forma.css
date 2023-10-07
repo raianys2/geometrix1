@@ -5,7 +5,7 @@
 }   
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/assets/images/background1.png');
+    background-image: url('/background1.png');
     background-size: cover; /* A imagem se ajustará à largura/altura do elemento */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
